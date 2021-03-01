@@ -24,3 +24,23 @@ img {
       "footer footer footer"
    ;
 }
+
+.header {
+   grid-area: header;
+}
+
+.sidenav {
+   grid-area: sidenav;
+}
+
+.content {
+   grid-area: content;
+}
+
+.anuncios {
+   grid-area: anuncios;
+}
+
+.footer {
+   grid-area: footer;
+}
