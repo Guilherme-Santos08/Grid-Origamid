@@ -31,15 +31,15 @@ img {
 @media(max-width:1200px) {
    .estrutura{
       grid-template-areas: none
-      "header header"
+      "header header header"
       "sidenav content content"
       "sidenav anuncios anuncios"
-      "footer footer"
+      "footer footer footer"
       ;
    }
 }
 
-@media(max-width:760px) {
+@media(max-width:800px) {
    .estrutura {
       grid-template-columns: 100%;
       grid-template-areas: 
@@ -141,7 +141,7 @@ img {
    }
 }
 
-@media(max-width:760px){
+@media(max-width:800px){
    .sidenav {
       position: relative;
 
