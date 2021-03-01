@@ -122,6 +122,44 @@ img {
 .imagem-2 {
    align-self: end;
 }
+
+/* ------ ESTILO CONTENT ------ */
+
+p {
+   font-size: 1.2em;
+   line-height: 1.6;
+   letter-spacing: -0.005em;
+
+   color: rba(0,0,0, .7);
+}
+
+.informacoes p + p {
+   margin-top: 30px;
+}
+
+/* ------ TITULO ------ */
+.titulo {
+   color: #B07dfb;
+}
+
+.titulo h1 {
+   font-size: 3.75rem;
+   line-height: 1;
+   font-weight: bold;
+}
+
+.titulo span {
+   font-size: 0.875em;
+   font-style: italic;
+}
+
+.caracteristicas {
+   display: flex;
+}
+
+.caracteristicas {
+   
+}
 /* ------ ANUNCIO ------ */
 
 .anuncios {
