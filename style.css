@@ -6,6 +6,10 @@
    text-decoration: none
 }
 
+body {
+   font-family: "Vollkorn", sans-serif;
+}
+
 
 img {
    max-width: 100px;
