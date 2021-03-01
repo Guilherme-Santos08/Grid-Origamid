@@ -204,6 +204,12 @@ img {
    align-self: end;
 }
 
+@media (max-width: 600px) {
+   .content{
+      grid-template-columns: auto;
+   }
+}
+
 /* ------ ESTILO CONTENT ------ */
 
 p {
