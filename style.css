@@ -324,6 +324,7 @@ p {
 
    display: grid;
    align-content: flex-start;
+   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 
    padding: 30px;
    grid-gap: 30px;
